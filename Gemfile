@@ -22,6 +22,7 @@ gem 'webpacker'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'rack-mini-profiler', require: false
 end
 
 group :development, :test do
