@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.5'
 
+gem 'activeadmin'
 gem 'devise'
 gem 'devise_invitable', '~> 1.7.0'
 gem 'figaro'
@@ -9,6 +10,7 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.1.6'
 gem 'redis'
+gem 'pundit'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
